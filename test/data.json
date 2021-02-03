@@ -1,0 +1,163 @@
+{
+  "books": [
+    {
+      "title": "Book 1",
+      "duration": "PT122M",
+      "actors": [
+        "Tim Test",
+        "Fina Freeman",
+        "Bob William"
+      ],
+      "ratings": [
+        {"userId": 7002, "rating": 8},
+        {"userId": 9251, "rating": 9},
+        {"userId": 34140, "rating": 8}
+      ],
+      "favorites": [66381, 7002, 9251, 34140],
+      "watchlist": [15292, 51418, 62290, 6147, 71390, 93708]
+    },
+    {
+      "title": "Book 2",
+      "duration": "PT165M",
+      "actors": [
+        "Test Brand",
+        "Alcme Pac",
+        "Jane Can"
+      ],
+      "ratings": [
+        {"userId": 15292, "rating": 9},
+        {"userId": 51418, "rating": 9},
+        {"userId": 7002, "rating": 9},
+        {"userId": 9251, "rating": 7},
+        {"userId": 71390, "rating": 9}
+      ],
+      "favorites": [15292, 51418, 7002, 9251, 71390, 93708],
+      "watchlist": [62290, 66381, 34140, 6147]
+    },
+    {
+      "title": "Book 3",
+      "duration": "PT152M",
+      "actors": [
+        "Christ Baleme",
+        "Heath William",
+        "Aaron Zhang"
+      ],
+      "ratings": [
+        {"userId": 15292, "rating": 8},
+        {"userId": 7002, "rating": 9},
+        {"userId": 9251, "rating": 6},
+        {"userId": 34140, "rating": 7},
+        {"userId": 93708, "rating": 7}
+      ],
+      "favorites": [15292, 7002, 9251, 34140, 93708],
+      "watchlist": [51418, 62290, 6147, 71390]
+    },
+    {
+      "title": "Book 4",
+      "duration": "PT195M",
+      "actors": [
+        "Lim Nees",
+        "Rob Fiennes",
+        "Ben Huang"
+      ],
+      "ratings": [
+        {"userId": 62290, "rating": 8},
+        {"userId": 66381, "rating": 5},
+        {"userId": 6147, "rating": 6},
+        {"userId": 71390, "rating": 7}
+      ],
+      "favorites": [62290, 66381, 6147, 71390],
+      "watchlist": [15292, 51418, 7002, 9251, 93708]
+    },
+    {
+      "title": "Book 5",
+      "duration": "PT154M",
+      "actors": [
+        "Jack Travolta",
+        "Ume Thur",
+        "Sam Jackson"
+      ],
+      "ratings": [
+        {"userId": 15292, "rating": 10},
+        {"userId": 51418, "rating": 9},
+        {"userId": 62290, "rating": 9},
+        {"userId": 66381, "rating": 9},
+        {"userId": 71390, "rating": 8},
+        {"userId": 93708, "rating": 10}
+      ],
+      "favorites": [15292, 51418, 62290, 66381, 71390, 93708],
+      "watchlist": [7002, 9251, 34140, 6147]
+    },
+    {
+      "title": "Book 6",
+      "duration": "PT201M",
+      "actors": [
+        "Test Actor",
+        "Test1 Actor",
+        "Test2 Actor"
+      ],
+      "ratings": [
+        {"userId": 62290, "rating": 3},
+        {"userId": 66381, "rating": 5},
+        {"userId": 34140, "rating": 6},
+        {"userId": 6147, "rating": 7},
+        {"userId": 71390, "rating": 7}
+      ],
+      "favorites": [62290, 66381, 34140, 6147, 71390, 93708],
+      "watchlist": [15292, 51418, 7002, 9251, 34140, 6147, 71390, 93708]
+    }
+  ],
+  "users": [
+    {
+        "userId": 15292,
+        "email": "Constan_test15@qq.com",
+        "friends": [7002, 51418, 62290]
+    },
+    {
+        "userId": 7002,
+        "email": "Liam3@baidu.com",
+        "friends": [15292, 51418, 62290, 66381]
+    },
+    {
+        "userId": 51418,
+        "email": "Lenin81@gmail.com",
+        "friends": [15292, 7002, 9251]
+    },
+    {
+        "userId": 62290,
+        "email": "kingsley.Test@alibaba.com",
+        "friends": [15292, 7002]
+    },
+    {
+        "userId": 9251,
+        "email": "Luke16@qq.com",
+        "friends": [66381, 51418]
+    },
+    {
+        "userId": 66381,
+        "email": "Mike_Lubowitz61@qq.com",
+        "friends": [7002, 9251]
+    },
+    {
+        "userId": 34140,
+        "email": "Nwood42@baidu.com",
+        "friends": [6147,93708]
+    },
+    {
+        "userId": 6147,
+        "email": "use_test@resoft.com",
+        "friends": [93708,71390,34140]
+    },
+    {
+        "userId": 71390,
+        "email": "use_Ruse@qq.com",
+        "friends": [6147,93708]
+    },
+    {
+        "userId": 93708,
+        "email": "test_user@resoft.com",
+        "friends": [6147,34140,71390]
+    }
+  ]
+
+}
